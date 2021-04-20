@@ -35,12 +35,12 @@
           </div>
         </div>
       </div>
-      <div class="notic">
+      <!-- <div class="notic">
         <div>
           <router-link to="https://support.google.com/business/answer/7388122">Report abuse</router-link>
           </div>
         <div><router-link to="https://www.google.com/business/how-it-works/website">Google</router-link> </div>
-      </div>
+      </div> -->
     </div>
     
   </div>
