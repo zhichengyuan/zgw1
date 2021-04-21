@@ -5,7 +5,7 @@
     </div>
     <div class="business-group">
       <div class="group-block">
-        <img src="" alt="">
+        <img src="https://goairmart.com/static/home/tutorial_1.jpg" alt="">
         <div class="business-title">
           <span>Delivery service</span>
         </div>
@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="group-block">
-        <img src="" alt="">
+        <img src="https://goairmart.com/static/home/tutorial_1.jpg" alt="">
         <div class="business-title">
           <span>Resource interaction</span>
         </div>
@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="group-block">
-        <img src="" alt="">
+        <img src="https://goairmart.com/static/home/tutorial_1.jpg" alt="">
         <div class="business-title">
           <span>Price</span>
         </div>
@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="group-block">
-        <img src="" alt="">
+        <img src="https://goairmart.com/static/home/tutorial_1.jpg" alt="">
         <div class="business-title">
           <span>Partner</span>
         </div>
