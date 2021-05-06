@@ -3,7 +3,7 @@
     <div class="content-block">
       <div class="left-info">
         <div class="title">Contact Us</div>
-        <div class="desc">Please leave us a message or contact @DirectXpress.com,Learn more about us</div>
+        <div class="desc">Please leave a message to learn more about us or contact info@directxps.com</div>
       </div>
       <div class="right-info">
         <div class="input">

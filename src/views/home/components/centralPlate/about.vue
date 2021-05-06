@@ -2,7 +2,7 @@
   <div class="about">
      <div class="feature">
           <div class="feature-info">
-          DirectXpress will become America’s lowest cost last mile delivery industry leader.  
+           The Fastest & Lowest Cost Last-Mile Delivery Service  
       </div>
      </div>
   </div>

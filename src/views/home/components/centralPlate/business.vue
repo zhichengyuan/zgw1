@@ -1,43 +1,43 @@
 <template>
   <div class="business">
     <div class="section-headline">
-      <span>Our advantage</span>
+      <span>Why Choose Us</span>
     </div>
     <div class="business-group">
       <div class="group-block">
         <img src="../../../../assets/img/image1.jpg" alt="">
         <div class="business-title">
-          <span>Delivery service</span>
+          <span>Fast Delivery</span>
         </div>
         <div class="business-desc">
-          <span>We focus on logistics and delivery, meet their individual needs, and are committed to providing the best logistics solutions and the highest quality delivery services</span>
+          <span>We guarantee same-day delivery for all local packages and next-day delivery for all parcels. We are committed to providing the best logistic experience and the highest quality of customer service.</span>
         </div>
       </div>
       <div class="group-block">
         <img src="../../../../assets/img/image2.jpg" alt="">
         <div class="business-title">
-          <span>Resource interaction</span>
+          <span>Service Integration</span>
         </div>
         <div class="business-desc">
-          <span>We are linked with various e-commerce platforms and storage systems, accurate, sustainable and fast resource interaction, and always meet the needs of partners</span>
+          <span>We provide a one-stop last-mile delivery service plus storage system solution for various E-commerce and retail customers. We will take care of your parcels from the starting point and fulfill the client’s needs at any stage of the process. </span>
         </div>
       </div>
       <div class="group-block">
         <img src="../../../../assets/img/image3.jpg" alt="">
         <div class="business-title">
-          <span>Price</span>
+          <span>Low Pricing</span>
         </div>
         <div class="business-desc">
-          <span>Provide the most efficient and lowest cost delivery service.</span>
+          <span>We are here to offer the most competitive price in the market. Through extensive partnerships, we are proud to provide our customers with lower cost for last-mile delivery services and storage solutions.</span>
         </div>
       </div>
       <div class="group-block">
         <img src="../../../../assets/img/image4.jpg" alt="">
         <div class="business-title">
-          <span>Partner</span>
+          <span>Partnerships</span>
         </div>
         <div class="business-desc">
-          <span> Specialty stores, independent grocery stores, independent e-commerce platforms, large supermarket chains, and all businesses that need to ship the last mile within the United States.</span>
+          <span> We focus on building strategic cooperation with various e-commerce brands, retail sites, and warehouse centers to ensure the smooth flow of cross-border logistics services all in one platform.</span>
         </div>
       </div>
     </div>

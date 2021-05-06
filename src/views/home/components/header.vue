@@ -4,7 +4,7 @@
           <div class="text">
               <div class="title">DirectXpress</div>
           <div class="desc">Delivery and Logistic Services </div>
-          <div class="desc">19550 Vallco Pkwy, Suite 215, Cupertino, CA </div>
+         
           <div class="home-btn">
               <router-link to="/">Get Quote</router-link>
           </div>
