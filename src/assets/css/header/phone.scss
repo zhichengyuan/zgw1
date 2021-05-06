@@ -14,14 +14,14 @@
 
             a {
                 span {
-                    color: #ffffff;
+                    color: #0c0c0c;
                     font-size: 18px;
                     font-weight: 700;
                 }
             }
 
             span {
-                color: #ffffff;
+                color: #0c0c0c;
                 font-size: 18px;
                 font-weight: 700;
             }
@@ -47,6 +47,7 @@
                     margin-bottom: 24px;
                     font-weight: 900;
                     font-size: 40px;
+                    color: black;
                 }
 
                 .desc {
@@ -54,14 +55,15 @@
                     font-weight: 900;
                     font-size: 20px;
                     margin-left: 5%;
+                    color: black;
                 }
                 .home-btn{
                     position: absolute;
-                    right: 10%;
+                    right: 3%;
+                    bottom: 5%;
                     font-weight: 700;
                     font-size: 16px;
-                   
-                    padding: 12px 32px;
+                    padding: 12px 20px;
                     border-radius: 25.5px;
                     background-color: #6fc16d;
                     display: inline-block;
