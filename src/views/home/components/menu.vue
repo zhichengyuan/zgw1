@@ -30,14 +30,30 @@
           <span> About Us  </span>
           </p>
           <p>
-          <span> 中/EN  </span>
+          <span @click="switchLanguage"> 中/EN  </span>
           </p>
       </div>
   </div>
 </template>
 
 <script>
+ import { useI18n } from "../../../i18nPlugin";
 export default {
+    setup() {
+      const i18n = useI18n();
+
+      const switchLanguage = () => {
+          console.log('点击事件',i18n.locale.value)
+        const locale = i18n.locale.value === "en" ? "zh" : "en";
+        i18n.locale.value = locale;
+      };
+
+      return {
+        i18n,
+        switchLanguage
+      };
+    },
+    
     data(){
         return {
             drawer:false,
