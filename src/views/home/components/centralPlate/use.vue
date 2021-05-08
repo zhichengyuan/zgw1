@@ -1,22 +1,21 @@
 <template>
 <div class="backuse">
   <div class="use ">
-    <div class="use-title">How to use</div>
+    <div class="use-title">{{i18n.$t('How to use')}}</div>
     <div class="use-group">
       <div class="use-left ">
-        <div class="use-left-title ">Already a member of our website</div>
+        <div class="use-left-title ">{{i18n.$t('Already a member of our website')}}</div>
         <div class="use-left-desc">
-          We will integrate our delivery platform with your order entry website。-http://Groupup.us
+          {{i18n.$t('We will integrate our delivery platform with your order entry website')}}
         </div>
       </div>
     </div>
     <div class="use-group">
       <div class="use-right">
        
-          <div class="use-right-title">Not yet a member of our website</div>
+          <div class="use-right-title">{{i18n.$t('Not yet a member of our website')}}</div>
         <div class="use-right-desc">
-         We provide two software platforms for you to use, one is free, and the other is fully functional. You only need to pay $199 per month for order entry, inventory control, payment processing, etc.-http
-          ：//Instaseafood.com
+         {{i18n.$t('We provide two software platforms for you to use, one is free, and the other is fully functional. You only need to pay a fixed per month for order entry, inventory control, payment processing, etc')}}
         </div>
         
       </div>
@@ -26,9 +25,17 @@
 </template>
 
 <script>
+import { useI18n } from "../../../../i18nPlugin";
 export default {
-  name: "use",
-};
+  name:'use',
+ setup() {
+      const i18n = useI18n();
+      return {
+        i18n,
+      };
+    }
+
+}
 </script>
 
 <style lang='scss' scoped>

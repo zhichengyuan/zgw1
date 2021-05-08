@@ -3,38 +3,38 @@
     <div class="feedback-container">
       <div class="part">
         <div class="column">
-          <div class="Logo">logo图片</div>
+          <div class="Logo">{{i18n.$t('login')}}logo图片</div>
         </div>
 
         <div class="contact">
           <div class="item-group">
             <div>
-              <router-link to="/"> About Direct Xpress</router-link>
-              <router-link to="/">Contact Us</router-link>
-              <router-link to="/">Customer Service</router-link>
-              <router-link to="/">Get a Quote</router-link>
-              <router-link to="/"> Careers</router-link>
-              <router-link to="/">User Login </router-link>
-              <router-link to="/"> Privacy Policy</router-link>
-              <router-link to="/">Learn More</router-link>
+              <router-link to="/">{{i18n.$t('About Direct Xpress')}} </router-link>
+              <router-link to="/">{{i18n.$t('Contact Us')}}</router-link>
+              <router-link to="/">{{i18n.$t('Customer Service')}}</router-link>
+              <router-link to="/">{{i18n.$t('Get a Quote')}}</router-link>
+              <router-link to="/"> {{i18n.$t('Careers')}}</router-link>
+              <router-link to="/">{{i18n.$t('User Login')}} </router-link>
+              <router-link to="/">{{i18n.$t('Privacy Policy')}} </router-link>
+              <router-link to="/">{{i18n.$t('Learn More')}}</router-link>
             </div>
           </div>
         </div>
         <div class="companyInfo">
           <div class="info-wrap">
             <div class="item-info">
-              <h3 class="content">(626) 567-3999</h3>
-              <span class="title">Customer service hotline</span>
+              <h3 class="content">{{i18n.$t('(626) 567-3999')}}</h3>
+              <span class="title">{{i18n.$t('Customer service hotline')}}</span>
             </div>
             <div class="item-info">
-              <h3 class="content">info@directxps.com</h3>
-              <span class="title">Email feedback</span>
+              <h3 class="content">{{i18n.$t('login')}}</h3>
+              <span class="title">{{i18n.$t('login')}}</span>
             </div>
             <div class="item-info">
               <h3 class="content">
-                19550 Vallco Pkwy, Suite 215, Cupertino, CA, 95014
+                {{i18n.$t('19550 Vallco Pkwy, Suite 215, Cupertino, CA, 95014')}}
               </h3>
-              <span class="title">company address</span>
+              <span class="title">{{i18n.$t('company address')}}</span>
             </div>
           </div>
         </div>
@@ -50,7 +50,16 @@
 </template>
 
 <script>
-export default {};
+import { useI18n } from "../../../i18nPlugin";
+export default {
+ setup() {
+      const i18n = useI18n();
+      return {
+        i18n,
+      };
+    }
+
+}
 </script>
 
 <style lang='scss' scoped>

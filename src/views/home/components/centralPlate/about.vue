@@ -2,14 +2,21 @@
   <div class="about">
      <div class="feature">
           <div class="feature-info">
-           The Fastest & Lowest Cost Last-Mile Delivery Service  
+           {{i18n.$t('The Fastest & Lowest Cost Last-Mile Delivery Service ')}} 
       </div>
      </div>
   </div>
 </template>
 
 <script>
+import { useI18n } from "../../../../i18nPlugin";
 export default {
+ setup() {
+      const i18n = useI18n();
+      return {
+        i18n,
+      };
+    }
 
 }
 </script>
