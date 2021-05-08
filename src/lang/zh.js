@@ -41,5 +41,9 @@ export const messages = {
     'Service Integration':'多元化服务',
     'We guarantee same-day delivery for all local packages and next-day delivery for all parcels. We are committed to providing the best logistic experience and the highest quality of customer service.':'我们承诺为您提供最快速可靠的“最后一英里”送货服务。所有的包裹及货物我们保证同城当日送达，跨城次日送达。安全快捷，为您省心！',
     'The Fastest & Lowest Cost Last-Mile Delivery Service ':'美国加州地区更低价更快捷的“最后一英里”送达服务',
-
+    'Delivery & Service':'物流服务',
+    
+    'Pricing':'价格查询',
+    'Resources':'服务支持',
+    'About Us':' 关于我们',
   }

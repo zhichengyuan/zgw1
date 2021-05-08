@@ -4,11 +4,11 @@
           <img src="../../../assets/img/logo.jpg" alt="">
       </div>
       <div class="menu">
-          <span> Delivery & Service </span>
-          <span> Pricing </span>
-          <span> Resources </span>
-          <span> About Us  </span>
-          <span> 中/EN  </span>
+          <span>{{i18n.$t('Delivery & Service')}}  </span>
+          <span>{{i18n.$t('Pricing')}}  </span>
+          <span>{{i18n.$t('Resources')}}  </span>
+          <span>{{i18n.$t('About Us')}}  </span>
+          <span  @click="switchLanguage"> 中/EN  </span>
       </div>
       <div class="menu-icon" @click="drawer = true">
           <img class="icon" src="../../../assets/img/menu.png" alt="">
@@ -18,16 +18,16 @@
               <img src="../../../assets/img/chcel.png" alt="">
           </div>
           <p>
-              <span> Delivery & Service </span>
+              <span>{{i18n.$t('Delivery & Service')}}  </span>
           </p>
           <p>
-          <span> Pricing </span>
+          <span>{{i18n.$t('Pricing')}}  </span>
           </p>
           <p>
-          <span> Resources </span>
+          <span>{{i18n.$t('Resources')}}  </span>
           </p>
           <p>
-          <span> About Us  </span>
+          <span>{{i18n.$t('About Us')}}   </span>
           </p>
           <p>
           <span @click="switchLanguage"> 中/EN  </span>
