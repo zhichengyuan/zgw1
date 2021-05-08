@@ -3,7 +3,7 @@
     <div class="feedback-container">
       <div class="part">
         <div class="column">
-          <div class="Logo">{{i18n.$t('login')}}logo图片</div>
+          <div class="Logo"></div>
         </div>
 
         <div class="contact">

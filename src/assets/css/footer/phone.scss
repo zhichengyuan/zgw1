@@ -21,9 +21,13 @@
                 }
                 .Logo {
                     margin-left: 10%;
-                    width: 350px;
-                    height: 100px;
-                    background-color: aqua;
+                    width: 200px;
+                    height: 50px;
+                    margin-top: 50px;
+                    background-image: url('~@/assets/img/logo.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
                 }
 
                 .contact {

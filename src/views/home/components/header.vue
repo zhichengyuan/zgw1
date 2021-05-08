@@ -11,6 +11,7 @@
           </div>
           
       </div>
+      <!-- <div class="btn-group">
       
       <div class="btn-group clearfix">
           <router-link to="/">
@@ -20,8 +21,9 @@
           <router-link to="/">
               <span>{{i18n.$t('register')}}</span>
           </router-link>
+      </div> 
            
-      </div>
+      </div>-->
       
       
   </div>
