@@ -27,8 +27,7 @@
               <span class="title">{{i18n.$t('Customer service hotline')}}</span>
             </div>
             <div class="item-info">
-              <h3 class="content">{{i18n.$t('login')}}</h3>
-              <span class="title">{{i18n.$t('login')}}</span>
+              <span class="title">info@directxps.com</span>
             </div>
             <div class="item-info">
               <h3 class="content">
