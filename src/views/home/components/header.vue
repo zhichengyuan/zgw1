@@ -11,7 +11,7 @@
           </div>
           
       </div>
-      <div class="btn-group">
+      <!-- <div class="btn-group">
           <router-link to="/">
               <span>login</span>
           </router-link>
@@ -19,7 +19,7 @@
           <router-link to="/">
               <span>register</span>
           </router-link>
-      </div>
+      </div> -->
       
   </div>
 </template>

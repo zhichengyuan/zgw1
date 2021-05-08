@@ -1,0 +1,60 @@
+<template>
+  <div class="home-menu">
+      <div class="logo">
+          <img src="../../../assets/img/logo.jpg" alt="">
+      </div>
+      <div class="menu">
+          <span> Delivery & Service </span>
+          <span> Pricing </span>
+          <span> Resources </span>
+          <span> About Us  </span>
+          <span> 中/EN  </span>
+      </div>
+      <div class="menu-icon" @click="drawer = true">
+          <img class="icon" src="../../../assets/img/menu.png" alt="">
+      </div>
+      <div class="menubox" v-if="drawer">
+          <div class="chcel" @click="onClick">
+              <img src="../../../assets/img/chcel.png" alt="">
+          </div>
+          <p>
+              <span> Delivery & Service </span>
+          </p>
+          <p>
+          <span> Pricing </span>
+          </p>
+          <p>
+          <span> Resources </span>
+          </p>
+          <p>
+          <span> About Us  </span>
+          </p>
+          <p>
+          <span> 中/EN  </span>
+          </p>
+      </div>
+  </div>
+</template>
+
+<script>
+export default {
+    data(){
+        return {
+            drawer:false,
+        }
+    },
+    methods:{
+        onClick() {
+            this.drawer = !this.drawer;
+        }
+    }
+}
+</script>
+
+<style lang='scss' scoped>
+@import '@/assets/css/menu/pc.scss';
+@import '@/assets/css/menu/pro.scss';
+@import '@/assets/css/menu/ipad.scss';
+@import '@/assets/css/menu/phone.scss';
+@import '@/assets/css/menu/mini.scss';
+</style>
