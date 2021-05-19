@@ -1,7 +1,7 @@
 <template>
   <div class="home-menu">
       <div class="logo">
-          <img src="../../../assets/img/logo.jpg" alt="">
+          <img src="../../../assets/img/logoPNG.png" alt="">
       </div>
       <div class="menu">
           <span>{{i18n.$t('Delivery & Service')}}  </span>
