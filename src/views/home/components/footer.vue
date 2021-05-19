@@ -31,7 +31,8 @@
             </div>
             <div class="item-info">
               <h3 class="content">
-                {{i18n.$t('19550 Vallco Pkwy, Suite 215, Cupertino, CA, 95014')}}
+                <!-- {{i18n.$t('19550 Vallco Pkwy, Suite 215, Cupertino, CA, 95014')}} -->
+                {{i18n.$t('19585 E Walnut Dr N, City of Industry, CA 91789')}}
               </h3>
               <span class="title">{{i18n.$t('company address')}}</span>
             </div>

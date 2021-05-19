@@ -25,7 +25,8 @@ export default {
   // text-align: center;
   // color: #2c3e50;
 
-  font-family: flqd-i7, adobe-notdef;
+  font-family: roboto;
+  // font-family: flqd-i7, adobe-notdef;
   font-weight: 400;
   font-style: italic;
 }

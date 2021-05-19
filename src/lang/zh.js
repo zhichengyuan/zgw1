@@ -19,6 +19,7 @@ export const messages = {
     'We will integrate our delivery platform with your order entry website':'我们将整合我们的交付平台与您的订单输入网站',
     'company address':'公司地址',
     '19550 Vallco Pkwy, Suite 215, Cupertino, CA, 95014':'19550 Vallco Pkwy, Suite 215, Cupertino, CA, 95014',
+    '19585 E Walnut Dr N, City of Industry, CA 91789':'19585 E Walnut Dr N, City of Industry, CA 91789',
     'Email feedback':'Email feedback',
     'info@directxps.com':'info@directxps.com',
     'Customer service hotline':'客户服务',
