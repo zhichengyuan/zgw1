@@ -2,8 +2,8 @@
   <div class="home-header">
       <div class="home-part-img">
           <div class="text">
-              <div class="title">DirectXpress</div>
-          <div class="desc">{{i18n.$t('Delivery and Logistic Services')}} </div>
+              <!-- <div class="title">DirectXpress</div>
+          <div class="desc">{{i18n.$t('Delivery and Logistic Services')}} </div> -->
          
           <div class="home-btn">
               <router-link to="/">{{i18n.$t('Get Quote')}}</router-link>
