@@ -7,15 +7,18 @@
            .section-headline{
             margin-bottom: 24px;
             font-weight: 900;
-        font-size: 44px;
+            font-size: 44px;
         // color: #424242;
            }
            .business-group{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-column-gap: 24px;
-            column-gap: 24px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            // grid-template-columns: 1fr 1fr 1fr 1fr;
+            // grid-column-gap: 24px;
+            // column-gap: 24px;
                .group-block{
+                width: 48%;
                    img{
                     // background-color: cornflowerblue;
                     width: 100%;
@@ -23,8 +26,8 @@
                     margin-bottom: 35px;
                     border-radius: 15px;
                     background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+                    background-position: center;
+                    background-size: cover;
                    }
                    .business-title{
                     font-weight: 700;
