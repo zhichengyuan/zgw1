@@ -2,7 +2,7 @@
   <div class="about">
      <div class="feature">
           <div class="feature-info">
-           {{i18n.$t('The Fastest & Lowest Cost Last-Mile Delivery Service ')}} 
+           {{i18n.$t('Faster and Lower Cost')}} 
       </div>
      </div>
   </div>

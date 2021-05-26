@@ -22,11 +22,12 @@
         </div>
         <div class="companyInfo">
           <div class="info-wrap">
-            <div class="item-info">
+            <!-- <div class="item-info">
               <h3 class="content">{{i18n.$t('(626) 567-3999')}}</h3>
               <span class="title">{{i18n.$t('Customer service hotline')}}</span>
-            </div>
+            </div> -->
             <div class="item-info">
+              <h3 >{{i18n.$t('Customer service email')}}</h3>
               <span class="title">info@directxps.com</span>
             </div>
             <div class="item-info">

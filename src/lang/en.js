@@ -41,8 +41,10 @@ export const messages = {
     'We guarantee same-day delivery for all local packages and next-day delivery for all parcels. We are committed to providing the best logistic experience and the highest quality of customer service.':'We guarantee same-day delivery for all local packages and next-day delivery for all parcels. We are committed to providing the best logistic experience and the highest quality of customer service.',
     'The Fastest & Lowest Cost Last-Mile Delivery Service ':'The Fastest & Lowest Cost Last-Mile Delivery Service ',
     'Delivery & Service':'Delivery & Service',
+    'Faster and Lower Cost':'Faster and Lower Cost',
     
     'Pricing':'Pricing',
     'Resources':'Resources',
     'About Us':'About Us',
+    'Customer service email':'Customer service email',
   }
